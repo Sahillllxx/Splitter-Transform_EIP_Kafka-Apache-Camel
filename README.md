@@ -25,7 +25,7 @@ This project demonstrates an enterprise integration pattern (EIP) for stream pro
 
 The following diagram illustrates the core architecture:
 
-![architecture](image1)
+![image](https://github.com/user-attachments/assets/975c84fb-95c9-4500-acce-be15b7950c1d)
 
 - Input Kafka Topic ⟶ Split (Camel) ⟶ [Stateful Counter, Value Transformer] ⟶ Output Kafka Topic / Logs
 
