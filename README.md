@@ -63,8 +63,15 @@ The following diagram illustrates the core architecture:
     ```
 
 4. **Send Messages:**  
-   Produce a JSON array of flight objects to the input Kafka topic.  
-   Example message:
+   You can use the provided sample file [`flights.json`](./flights.json) to test the application.
+   Produce the contents of this file to your input Kafka topic.
+
+   Example using `kafka-console-producer`:
+   ```bash
+   kafka-console-producer --broker-list localhost:9092 --topic <your-input-topic> < flights.json
+   ```
+
+   Example message (see full contents in [`flights.json`](./flights.json)):
    ```json
    [
      {
@@ -76,6 +83,7 @@ The following diagram illustrates the core architecture:
      }
    ]
    ```
+
 
 5. **Observe Output:**  
    Check the output Kafka topic for messages with added duration, and view logs for stateful statistics.
