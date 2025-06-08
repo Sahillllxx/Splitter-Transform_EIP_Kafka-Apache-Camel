@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: splitflow-kafka-camel
+
+server:
+  port: 8081
+
+camel:
+  component:
+    kafka:
+      brokers: localhost:29092
+
+app:
+  kafka:
+    input-topic: flight-input-topic
+    output-topic: transformed-flights
+    dlq-topic: flight-dlq

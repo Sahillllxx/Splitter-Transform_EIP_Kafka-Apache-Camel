@@ -1,0 +1,37 @@
+[
+  {
+    "flightNumber": "AI101",
+    "departure": "Delhi",
+    "arrival": "Mumbai",
+    "departureTime": "2025-06-08T10:00:00",
+    "arrivalTime": "2025-06-08T12:00:00"
+  },
+  {
+    "flightNumber": "6E202",
+    "departure": "Bangalore",
+    "arrival": "Hyderabad",
+    "departureTime": "2025-06-08T09:30:00",
+    "arrivalTime": "2025-06-08T11:15:00"
+  },
+  {
+    "flightNumber": "UK305",
+    "departure": "Chennai",
+    "arrival": "Delhi",
+    "departureTime": "2025-06-08T14:00:00",
+    "arrivalTime": "2025-06-08T16:30:00"
+  },
+  {
+    "flightNumber": "SG456",
+    "departure": "Mumbai",
+    "arrival": "Kolkata",
+    "departureTime": "2025-06-08T18:00:00",
+    "arrivalTime": "2025-06-08T21:00:00"
+  },
+  {
+    "flightNumber": "AI909",
+    "departure": "Delhi",
+    "arrival": "Pune",
+    "departureTime": "2025-06-08T06:45:00",
+    "arrivalTime": "2025-06-08T08:50:00"
+  }
+]
