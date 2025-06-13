@@ -63,7 +63,7 @@ The following diagram illustrates the core architecture:
     ```
 
 4. **Send Messages:**  
-   You can use the provided sample file [`flights.json`](./flights.json) to test the application.
+   You can use the provided sample file to test the application.
    Produce the contents of this file to your input Kafka topic.
 
    Example using `kafka-console-producer`:
