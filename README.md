@@ -71,7 +71,7 @@ The following diagram illustrates the core architecture:
    kafka-console-producer --broker-list localhost:9092 --topic <your-input-topic> < flights.json
    ```
 
-   Example message (see full contents in [`flights.json`](./flights.json)):
+   Example message (see full contents in https://github.com/Sahillllxx/Splitter-Transform_EIP_Kafka-Apache-Camel/blob/e5275d4623fb4152cf00a93391860e9da61cebff/splitflow-kafka-camel/src/main/resources/test-data/flights.json):
    ```json
    [
      {
